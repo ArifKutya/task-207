@@ -27,7 +27,6 @@ html {
 
 .card {
   border: 10px solid $grey-light;
-  width: 500px;
   box-sizing: border-box;
 }
 
@@ -38,4 +37,8 @@ html {
 
 .card .content {
   padding: 30px 25px;
+}
+.card {
+  width: 500px;
+  box-sizing: content-box;
 }
