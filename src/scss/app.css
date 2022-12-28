@@ -179,7 +179,6 @@ html {
 
 .card {
   border: 10px solid #b5b5b5;
-  width: 500px;
   box-sizing: border-box; }
 
 .card-header {
@@ -188,5 +187,9 @@ html {
 
 .card .content {
   padding: 30px 25px; }
+
+.card {
+  width: 500px;
+  box-sizing: content-box; }
 
 /*# sourceMappingURL=app.css.map */
