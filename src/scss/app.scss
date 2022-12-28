@@ -11,7 +11,7 @@
 
 /* Mixins, helpers and functions */
 @import "base/mixins";
-$grey-light: grey-light;
+$grey-light: rgb(181, 181, 181);
 $light: light;
 
 html {
@@ -28,6 +28,7 @@ html {
 .card {
   border: 10px solid $grey-light;
   width: 500px;
+  box-sizing: border-box;
 }
 
 .card-header {
