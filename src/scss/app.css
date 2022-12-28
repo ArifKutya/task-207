@@ -178,8 +178,9 @@ html {
   margin-top: 50px; }
 
 .card {
-  border: 10px solid grey-light;
-  width: 500px; }
+  border: 10px solid #b5b5b5;
+  width: 500px;
+  box-sizing: border-box; }
 
 .card-header {
   background-color: light;
